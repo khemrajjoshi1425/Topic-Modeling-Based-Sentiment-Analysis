@@ -1,0 +1,17 @@
+streamlit>=1.36
+bertopic>=0.16
+sentence-transformers
+umap-learn
+hdbscan
+spacy>=3.7
+transformers
+torch
+sentencepiece
+protobuf
+pandas
+openpyxl
+xlrd
+plotly
+wordcloud
+matplotlib
+scikit-learn
