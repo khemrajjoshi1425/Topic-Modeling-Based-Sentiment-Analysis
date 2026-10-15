@@ -1,9 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
 streamlit>=1.36
 bertopic>=0.16
 sentence-transformers
 umap-learn
 hdbscan
-spacy>=3.7
+spacy==3.7.5
 transformers
 torch
 sentencepiece
@@ -15,3 +16,4 @@ plotly
 wordcloud
 matplotlib
 scikit-learn
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
