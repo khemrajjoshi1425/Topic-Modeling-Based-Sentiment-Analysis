@@ -28,7 +28,7 @@ SEED = 42
 GAMMA = 0.5          # weight of aspect-topic cosine vs. topic distribution (as in notebook)
 MULTI_THRESH = 0.30  # soft multi-topic threshold (as in notebook)
 MIN_SENTENCES = 30
-MAX_SENTENCES = 2000  # demo cap (the sentiment model is slow on CPU); raise on a GPU / bigger server
+MAX_SENTENCES = 1000  # demo cap (the sentiment model is slow on CPU); raise on a GPU / bigger server
 MAX_CANDIDATES_A = 6  # cap on Strategy-A candidates evaluated with C_v x TD
 MAX_CANDIDATES_B = 8  # cap on Strategy-B candidates evaluated with C_v x TD
 
